@@ -30,9 +30,10 @@ function best($val1,$val2,$sort){
 
 function body(){
     include 'lib/form.html';
-    $height = $_POST['height'];
-    $weight = $_POST['weight'];
-    $outcome = $weight / ($height * $height);
+    $lengt = $_POST['lengt'];
+    $gewicht = $_POST['gewicht'];
+    
+    $outcome = $gewicht / ($lengt * $lengt);
 
     echo $outcome;
 
